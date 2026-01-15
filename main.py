@@ -470,8 +470,8 @@ class ProximaApp(ctk.CTk):
             "kp",
             [
                 ("Keybind", state.kp_bind, lambda k: setattr(state, "kp_bind", k)),
-                ("Action Key 1", state.kp_key_1, lambda k: setattr(state, "kp_key_1", k)),
-                ("Action Key 2", state.kp_key_2, lambda k: setattr(state, "kp_key_2", k)),
+                ("Pearl Slot", state.kp_key_1, lambda k: setattr(state, "kp_key_1", k)),
+                ("Switch Back Slot", state.kp_key_2, lambda k: setattr(state, "kp_key_2", k)),
             ],
         )
 
@@ -485,9 +485,9 @@ class ProximaApp(ctk.CTk):
             "aa",
             [
                 ("Keybind", state.aa_bind, lambda k: setattr(state, "aa_bind", k)),
-                ("Action Key 1", state.aa_key_1, lambda k: setattr(state, "aa_key_1", k)),
-                ("Action Key 2", state.aa_key_2, lambda k: setattr(state, "aa_key_2", k)),
-                ("Action Key 3", state.aa_key_3, lambda k: setattr(state, "aa_key_3", k)),
+                ("Anchor Slot", state.aa_key_1, lambda k: setattr(state, "aa_key_1", k)),
+                ("Glowstone Slot", state.aa_key_2, lambda k: setattr(state, "aa_key_2", k)),
+                ("Exploding Item", state.aa_key_3, lambda k: setattr(state, "aa_key_3", k)),
             ],
         )
 
@@ -842,4 +842,5 @@ if __name__ == "__main__":
 
     app = ProximaApp()
     app.mainloop()
+
 
