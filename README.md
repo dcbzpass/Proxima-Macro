@@ -59,7 +59,6 @@ This software is intended for educational purposes and use on servers where macr
 
 ## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
 
 ### Necessary Imports (for your information)
 Your `main.py` script already includes these, but for your reference, these are the dependencies used:
