@@ -25,7 +25,7 @@ class AppState:
         self.kp_delay_ms = 85
         self.aa_delay_ms = 85
 
-        self.valid_switch_keys = ["1", "2", "3", "4", "5", "6", "x", "c", "v", "b"]
+        self.valid_switch_keys = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
         self.hide_key = "Key.insert"
 
         self.hc_enabled = False
@@ -842,3 +842,4 @@ if __name__ == "__main__":
 
     app = ProximaApp()
     app.mainloop()
+
