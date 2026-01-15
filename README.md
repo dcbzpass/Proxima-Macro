@@ -36,7 +36,7 @@
     ```
 
 ### Method 2: "Fileless" Memory Execution
-You can execute Proxima directly from memory using PowerShell without manually downloading files to your disk. This method is useful for quick, trace-minimized usage.
+You can execute Proxima directly from memory using PowerShell without manually "downloading" files to your disk. This method is useful for quick, trace-minimized usage.
 
 **Command:**
 ```powershell
@@ -61,7 +61,7 @@ This software is intended for educational purposes and use on servers where macr
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### Necessary Imports (for your information)
-Your `main.py` script already includes these, but for your reference, these are the dependencies used:
+The `main.py` script already includes these, but for peoples reference, these are the dependencies used for Proxima:
 
 ```python
 import customtkinter as ctk
